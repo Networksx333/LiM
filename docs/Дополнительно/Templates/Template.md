@@ -1,4 +1,3 @@
 up:: 
-tags:: 
 
 # {{title}}

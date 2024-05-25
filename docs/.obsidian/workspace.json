@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Вопросы/Способы представления поворотов - матрицы поворота, ось угол, кватернион.md",
+                "file": "Вопросы/Евклидовы преобразования и их свойства.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Вопросы/Евклидовы преобразования и их свойства.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Вопросы/Евклидовы преобразования и их свойства.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Вопросы/Евклидовы преобразования и их свойства.md"
+              }
             }
           }
         ]
@@ -167,8 +171,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 358,
-        "y": 216,
+        "x": 325,
+        "y": 125,
         "width": 784,
         "height": 500,
         "maximize": false,
@@ -176,11 +180,11 @@
       }
     ]
   },
-  "active": "51debce5320d6357",
+  "active": "303693c1c754b9be",
   "lastOpenFiles": [
     "Вопросы/Способы представления поворотов - матрицы поворота, ось угол, кватернион.md",
-    "Вопросы/Евклидовы преобразования и их свойства.md",
     "Вопросы/Операции над векторами и матрицами..md",
+    "Вопросы/Евклидовы преобразования и их свойства.md",
     "index.md",
     "Входящие/Untitled.md",
     "Дополнительно/Templates/Template.md",

@@ -11,8 +11,12 @@
             "id": "303693c1c754b9be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Вопросы/Операции над векторами и матрицами..md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Вопросы/Операции над векторами и матрицами..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Вопросы/Операции над векторами и матрицами..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Вопросы/Операции над векторами и матрицами..md"
+              }
             }
           }
         ]
@@ -138,6 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "303693c1c754b9be",
-  "lastOpenFiles": []
+  "active": "e85b44f1b5349cde",
+  "lastOpenFiles": [
+    "index.md",
+    "Вопросы/Операции над векторами и матрицами..md",
+    "Входящие/Untitled.md",
+    "Дополнительно/Templates/Template.md",
+    "Дополнительно/Templates/Template, Dates dates dates (kit).md",
+    "Дополнительно/Templates/Template, Meeting (kit).md",
+    "Дополнительно/Templates/Template, Daily Note (kit).md",
+    "Карты/+ About Cards.md"
+  ]
 }

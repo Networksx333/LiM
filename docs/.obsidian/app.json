@@ -1,1 +1,6 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Входящие",
+  "attachmentFolderPath": "Дополнительно/Images",
+  "promptDelete": false
+}

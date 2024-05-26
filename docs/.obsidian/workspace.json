@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Вопросы/Вероятностная модель процесса. Примеры..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Вопросы/Вероятностная модель процесса. Примеры..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Вопросы/Вероятностная модель процесса. Примеры..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Вопросы/Вероятностная модель процесса. Примеры..md"
               }
             }
           }
@@ -149,14 +149,15 @@
   },
   "active": "303693c1c754b9be",
   "lastOpenFiles": [
+    "Вопросы/Вероятностная модель измерений. Примеры..md",
     "Вопросы/Датчики расстояния.md",
+    "Дополнительно/Images/Pasted image 20240526113208.png",
+    "Вопросы/Вероятностная модель процесса. Примеры..md",
+    "index.md",
     "Вопросы/Евклидовы преобразования и их свойства.md",
     "Вопросы/Байесовская фильтрация..md",
     "Пояснения/Распределение случайной величины.md",
-    "Вопросы/Вероятностная модель измерений. Примеры..md",
-    "Вопросы/Вероятностная модель процесса. Примеры..md",
     "Вопросы/Дискретный фильтр..md",
-    "index.md",
     "Вопросы/Совместная и условная вероятность. Формула Байеса. Пример..md",
     "Вопросы/Аксиомы теории вероятностей. Дискретная и непрерывная случайные величины..md",
     "Дополнительно/Images/Pasted image 20240526082534.png",
@@ -177,7 +178,6 @@
     "Дополнительно/Images/Pasted image 20240525230425.png",
     "Входящие/Untitled.md",
     "Дополнительно/Templates/Template, Dates dates dates (kit).md",
-    "Дополнительно/Templates/Template, Meeting (kit).md",
-    "Дополнительно/Templates/Template, Daily Note (kit).md"
+    "Дополнительно/Templates/Template, Meeting (kit).md"
   ]
 }

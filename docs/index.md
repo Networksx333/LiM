@@ -37,22 +37,22 @@ Python +
 
 Типы: ультразвуковые, инфракрасные, лазерные дальномеры. Используются для измерения расстояния до объектов.
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 ## 6. [[Аксиомы теории вероятностей. Дискретная и непрерывная случайные величины.]]
 
 Основные аксиомы: неотрицательность, нормировка, аддитивность. Величины могут быть дискретными и непрерывными.
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 ## 7. [[Совместная и условная вероятность. Формула Байеса. Пример.]]
 
 Формула Байеса позволяет обновлять вероятность гипотезы на основе новых данных. Условная вероятность определяет вероятность события при условии другого события.
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 
 ## 8. [[Байесовская фильтрация.]]
@@ -74,23 +74,23 @@ Python +
 
 Определяет вероятность получения измерений из состояния. Примеры: измерения GPS, данные от сенсоров.
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 ## 11. [[Дискретный фильтр.]]
 
 Фильтр для обработки дискретных данных, таких как сигналы с датчиков.
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 
 ## 12. [[Фильтр частиц.]]
 
 Метод Монте-Карло для аппроксимации распределений вероятностей. Использует множество частиц для представления состояния системы.
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 
 ## 13. [[Задача локализации. Пример.]]
@@ -106,24 +106,24 @@ Python +
 - **Фильтр Калмана**: оптимальный рекурсивный фильтр для линейных систем.
 - **Расширенный фильтр Калмана (EKF)**: модификация для нелинейных систем.
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 
 ## 15. [[Задача построения 2D карты. Примеры.]]
 
 Процесс создания карты окружающей среды роботом на основе сенсорных данных. Примеры: SLAM (Simultaneous Localization and Mapping).
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 
 ## 16. [[Задача одновременной локализации и построения карты. EKF SLAM.]]
 
 Метод SLAM с использованием расширенного фильтра Калмана для одновременной оценки положения робота и карты.
 
-<div style="color: black; background-color: #ffff99; padding: 10px; border: 10px;">
-Python -
+<div style="color: white; background-color: #4285f4; padding: 10px; border: 10px;">
+Python +
 </div>
 
 ## 17. [[Задача одновременной локализации и построения карты. Fast SLAM.]]

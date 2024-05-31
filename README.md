@@ -1,58 +1,66 @@
-# Publish your Obsidian Notes
+# 🤖 Вопросы робототехники: Краткое изложение
 
-MkDocs template [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+## 1. Операции над векторами и матрицами
+Основные операции: сложение, вычитание, умножение (включая матричное умножение и скалярное произведение), транспонирование и инвертирование матриц.
 
-Would you like to take _some_ of your notes in [Obsidian](https://obsidian.md/) and make it public?
+## 2. Евклидовы преобразования и их свойства
+Евклидовы преобразования включают в себя трансляции и вращения, которые сохраняют расстояния и углы в пространстве.
 
-This template gives you an easy (and automated) way to publish your Obsidian notes (or blog!) on your Github pages.
+## 3. Способы представления поворотов
+- **Матрицы поворота**: используются для описания вращений в пространстве.
+- **Ось-угол**: представление вращения вокруг заданной оси на определенный угол.
+- **Кватернионы**: удобный способ для представления поворотов, избегая проблем с сингулярностями.
 
-With this template, you get these **out-of-the-box**:
+## 4. Кинематика колесных роботов
+- **Дифференциальный привод**: управляется изменением скоростей двух колес.
+- **Привод Аккермана**: используется в автомобилях для управления поворотом передних колес.
 
-- an awesome website based on Material theme, complete with a search bar (Checkout this template repo published [here](https://jobindjohn.github.io/obsidian-publish-mkdocs/))
-![](2021-11-22-22-49-26.png)
-- get the Obsidian/Roam style `[[wikilinks]]` from your vault in your published notes
-- Toggle between light and dark mode
-- Blog folder
+## 5. Датчики расстояния
+Типы: ультразвуковые, инфракрасные, лазерные дальномеры. Используются для измерения расстояния до объектов.
 
-## Quick start
+## 6. Аксиомы теории вероятностей
+Основные аксиомы: неотрицательность, нормировка, аддитивность. Величины могут быть дискретными и непрерывными.
 
-1. Create a **new github repository using this template**. Click the green button at the top or use [this link](https://github.com/jobindjohn/obsidian-publish-mkdocs/generate). 
+## 7. Совместная и условная вероятность. Формула Байеса. Пример
+Формула Байеса позволяет обновлять вероятность гипотезы на основе новых данных. Условная вероятность определяет вероятность события при условии другого события.
 
-![](2021-11-22-22-54-02.png)
+## 8. Байесовская фильтрация
+Метод для оценки состояния системы на основе модели процесса и модели измерений.
 
-2.  **Give a name** to your repository. By default your notes will be published at `<https://username.github.io/repo-name/>`
-     - Copy only the `main` branch while creating the repo from the template
-3. **Clone** the repository you generated **into your Obsidian folder/vault.**
-4. **Move your notes** that you would like to make public to the `repo-name/docs` folder.
-    - Easiest way to do this would be using drag and drop within Obsidian
-5. Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/). 
-6. Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
+## 9. Вероятностная модель процесса. Примеры
+Определяет вероятностное поведение системы во времени. Примеры: модели движения роботов, модели роста популяций.
 
-![](2021-11-22-22-52-49.png)
+## 10. Вероятностная модель измерений. Примеры
+Определяет вероятность получения измерений из состояния. Примеры: измерения GPS, данные от сенсоров.
 
-**Not working for you?** Open an [issue](https://github.com/jobindjohn/obsidian-publish-mkdocs/issues/new/choose) and let me know what went wrong.
+## 11. Дискретный фильтр
+Фильтр для обработки дискретных данных, таких как сигналы с датчиков.
 
-## Configuring your website
+## 12. Фильтр частиц
+Метод Монте-Карло для аппроксимации распределений вероятностей. Использует множество частиц для представления состояния системы.
 
-### How do I arrange notes as sections and pages?
+## 13. Задача локализации. Пример
+Определение положения робота в пространстве. Пример: локализация робота в помещении на основе данных с сенсоров.
 
-By default, the sections and pages will follow the folder structure within `/docs`. The folders and sub-folders will show up as sections. Try not to have white spaces in your folder and file names, as these will be converted to HTML links. The webpage heading will be the same as the first-level heading in the markdown note.
+## 14. Фильтр Калмана. Расширенный фильтр Калмана
+- **Фильтр Калмана**: оптимальный рекурсивный фильтр для линейных систем.
+- **Расширенный фильтр Калмана (EKF)**: модификация для нелинейных систем.
 
-- If you would like to arrange the pages manually, then use the `nav` option in the `mkdocs.yml` [configuration file](https://www.mkdocs.org/#adding-pages) at the root of this repo  to set custom page navigation.
-    - For example, see the setup for [the Blue Book](https://lyz-code.github.io/blue-book/) at [github](https://github.com/lyz-code/blue-book/blob/master/mkdocs.yml). Managing each page using `nav` can become cumbersome as the number of notes increase though!
-- The Materials theme provides multiple options to arrange [sections](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-sections), use [navigation tabs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs), and many other helpful [navigation setups](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/)
+## 15. Задача построения 2D карты. Примеры
+Процесс создания карты окружающей среды роботом на основе сенсорных данных. Примеры: SLAM (Simultaneous Localization and Mapping).
 
-## Alternatives
+## 16. Задача одновременной локализации и построения карты. EKF SLAM
+Метод SLAM с использованием расширенного фильтра Калмана для одновременной оценки положения робота и карты.
 
-- [datopian/obsidian-flowershow](https://github.com/datopian/obsidian-flowershow): plugin for publishing with flowershow direct from your obsidian vault.
-- [kmaasrud/oboe](https://github.com/kmaasrud/oboe): tool to convert an Obsidian vault into a static directory of HTML files.
-- [Jackiexiao/foam-mkdocs-template](https://github.com/Jackiexiao/foam-mkdocs-template): template for Obsidian/Foam using mkdocs/mkdocs-material/mkdocs-roamlinks-plugin
-- [foambubble/foam-template](https://github.com/foambubble/foam-template): Foam workpace template
-- [ObsidianPublisher/obsidian-mkdocs-publisher-template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template): Obsidian Mkdocs Publisher, a free obsidian publish alternative throught Mkdocs
-- [KosmosisDire/obsidian-webpage-export](https://github.com/KosmosisDire/obsidian-webpage-export): Webpage HTML Export lets you export single files or whole vaults as HTML websites or documents. It is similar to publish, but you get direct access to the exported HTML.
+## 17. Задача одновременной локализации и построения карты. Fast SLAM
+Метод SLAM, использующий фильтр частиц для разделения задачи локализации и построения карты.
 
-## Other interesting projects
+## 18. Задача построения 3D карты. Примеры
+Процесс создания трёхмерной карты окружающей среды. Примеры: использование LIDAR, RGB-D камер.
 
-- [mathieudutour/gatsby-digital-garden: digital garden with Gatsby](https://github.com/mathieudutour/gatsby-digital-garden)
-- [TuanManhCao/digital-garden: Free Obisidian Publish alternative](https://github.com/TuanManhCao/digital-garden)
+## 19. Итеративный алгоритм ближайших точек (ICP)
+Алгоритм для минимизации расстояния между двумя наборами точек, часто используемый для регистрации сканированных данных.
 
+---
+
+Эта шпаргалка поможет освежить основные темы по робототехнике перед зачетом.
